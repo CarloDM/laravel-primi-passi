@@ -4,13 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>chi siamo</title>
 </head>
 <body>
-    <h1>ciao!</h1>
-    <p>{{ $saluto }}</p>
-
-    <a href="/">index</a>
-    <a href="/chisiamo">chi siamo</a>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, adipisci.</p>
+    <a href="/home">home</a>
 </body>
 </html>
