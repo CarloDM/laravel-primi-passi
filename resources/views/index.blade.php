@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>ciao!</h1>
-    <p>{{ $saluto }}</p>
-
-    <a href="/">index</a>
+    <p>index</p>
+    <a href="/home">home</a>
 </body>
 </html>
