@@ -21,6 +21,12 @@ Route::get('/home', function(){
     return view('home', ['saluto' => 'benvenuto'] ) ;
 })->name('home');
 
+//  passare l array con compact
 Route::get('/chisiamo', function(){
-    return view('chisiamo',) ;
+    $arrayProva = [
+        'name' => 'Carlo',
+        'surname' => 'De Mauro',
+        'email' => 'carlo@hotmail.it'
+    ];
+    return view('chisiamo', compact('arrayProva')) ;
 })->name('about');

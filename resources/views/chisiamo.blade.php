@@ -7,7 +7,22 @@
     <title>chi siamo</title>
 </head>
 <body>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia, adipisci.</p>
     <a href="/home">home</a>
+
+    {{-- @dump($arrayProva) --}}
+
+    <ul>
+        @forelse ($arrayProva as $key => $value )
+        <li>
+            {{$key}} : {{$value}}
+        </li>
+
+        @empty
+
+        @endforelse ($prova as $array§Prova )
+
+    </ul>
+
+
 </body>
 </html>
